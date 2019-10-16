@@ -70,10 +70,7 @@ class LoL:
         x = summoner.json()
         return x #the return is long and complicated, so I won't explain it here, consult riot API documentation
 
-lol = LoL()
-a = lol.NGetSummoner("hubikazak")
-asdf = a['id']
-print(lol.SIDGetMasteries(asdf)[0])
+
 
 #https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/hubikazak?api_key=RGAPI-b6d191ef-5200-411a-9afe-d80d1eb53a00
 
